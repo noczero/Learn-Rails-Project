@@ -68,6 +68,10 @@ group :development do
 
   # Add rpsec for unit testing, [https://github.com/rspec/rspec-rails]
   gem 'rspec-rails'
+
+  # Debugging process
+  gem 'byebug'
+  gem 'pry-byebug'
 end
 
 group :test do
