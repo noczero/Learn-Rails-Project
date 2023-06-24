@@ -70,3 +70,14 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
+# ActiveAdmin Dependencies
+# https://activeadmin.info/0-installation.html
+gem 'activeadmin'
+
+# Plus integrations with:
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
